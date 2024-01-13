@@ -1,0 +1,42 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.todo-container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    
+}
+.input{
+    font-size: 15px;
+    padding: 10px 5px;
+    color: black;
+}
+.add{
+    background-color: greenyellow;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+.delete{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.add-reset{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+}
